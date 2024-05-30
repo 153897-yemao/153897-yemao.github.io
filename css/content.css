@@ -8,7 +8,14 @@
 	background-size: cover;
 	width: 100%;
 	height: 300px;
-	
+}
+
+.img p{
+	text-align: center;
+	color: #fff;
+	line-height: 300px;
+	font-size: 100px;
+	text-shadow: 5px 5px 5px rgb(0,0,0,0.55);
 }
 
 .menu{
@@ -146,6 +153,7 @@
 		letter-spacing: 3px;
 	}
 }
+
 .second:hover{
 		box-shadow: 5px 10px 10px rgb(0,0,0,0.65);
 }
@@ -154,68 +162,61 @@
 	float: left;
 	width: 1046px;
 	height: 590px;
-	table{
-		float: left;
-	}
-	td{
-		width: 300px;
-		height: 350px;
-		.mother{
-			margin-top: 15px;
-			margin-bottom: 15px;
-			width: 290px;
-			height: 350px;
-			background-color: #fff;
-			border-radius: 10px;
-			transition: box-shadow 0.3s ease;
-			box-shadow: 5px 10px 10px rgb(0,0,0,0.35);
-		}
-		.mother:hover{
-			box-shadow: 5px 10px 10px rgb(0,0,0,0.65);
-		}
-		.page_img{
-			width: 290px;
-			height: 175px;
-			background-color: #b6b6b6;
-			border-radius: 10px 10px 0 0;
-			transition: transform 0.3s ease;
-			box-shadow: none;
-		}
-		.page_img:hover{
-			transform: scale(1.1);
-		}
-		
-	}
-	.tltle{
-		width: 300px;
-		height: auto;
-	}
-	.p1{
-		margin-top: 40px;
-		float: left;
-		width: 200px;
-		
-	}
-	.p2{
-		margin-top: 40px;
-		float: right;
-		width: 200px;
-	}
-	hr{
-		float: left;
-	}
-	
-	
 }
 
+.tltle{
+	width: 300px;
+	height: auto;
+}
+
+.p1{
+	margin-top: 40px;
+	float: left;
+	width: 200px;
+	padding-left: 30px;
+	color: aliceblue;
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-shadow: 5px 5px 5px rgb(0,0,0,0.55);	
+}
+
+.p2{
+	margin-top: 40px;
+	float: right;
+	width: 200px;
+	font-size: 20px;
+	text-shadow: 5px 5px 5px rgb(0,0,0,0.55);
+	padding-right: 40px;
+	color: aliceblue;
+}
+
+hr{
+	float: left;
+}
+	
 .inform{
 	margin-top: 70px;
 	width: 870px;
 	height: 60px;
-	border-style: dashed;
-	border-width: 2px;
 	border-radius: 10px;
-	border-color: rgb(117, 117, 117, 0.65);
+	background-color: #6e81c5;
 	padding-left: 30px;
 	padding-top: 40px;
+}
+
+.inform p{
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+	font-family:宋体;
+	text-shadow: 5px 5px 5px rgb(0,0,0,0.55);	
+}
+
+.pages{
+	width: 900px;
+	height: 400px;
+	background-image: linear-gradient(to left top, #89beff, #6699ff, #6e81c5);
+	margin-top: 30px;
+	border-radius: 10px;
 }
